@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .container {
+            height: 300px;
+            width: 600px;
+           
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 150px 150px;
+
+        }
+
+        .div1 {
+            background-color: lightpink;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .div2 {
+            background-color: lightgray;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+        .div3 {
+            background-color: lightcoral;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .div4 {
+            background-color: rgb(129, 19, 19);
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="div1">div1</div>
+        <div class="div2">div2</div>
+        <div class="div3">div3</div>
+        <div class="div4">div4</div>
+       
+    </div>
+</body>
+
+</html>
